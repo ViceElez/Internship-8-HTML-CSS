@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>HTML Only</title>
+</head>
+<body>
+    <div class="headDiv">
+       <header class="headText" style="font-size:48px; margin-top: -8px;"> <b>HTML Only</b></header>
+        <figure>
+            <figcaption class="headText" style="position: relative; left: 50px; font-size: 16px;">Navigation</figcaption>
+            <ul style="margin-top: 5px;">
+                <li style="color: white;"> <span class="listText">What is this?</span></li>
+                <li style="color: white;"> <span class="listText">How does this work?</span></li>
+                <li style="color: white;" > <span class="listText">But why?</span></li>
+                <li style="color: white;"><span class="listText">Frameset Version <br> (New in 2024)</span></li>
+            </ul>
+        </figure>
+    </div>
+    <hr color="orange">
+    <div class="Div" style="border-color: rgb(255, 0, 255);">   
+        <h3 class="divHeader">What is this?</h3>
+        <p class="divText">This page was inspired by a <span class="firstSpan">tweet from Salma</span>. 
+            Pretty HTML only pages are difficult to make well, and accessible. But here we are. I'm trying my best.
+        </p>
+    </div>
+    <hr color="orange">
+
+    <div class="Div" style="border-color: aqua;">
+        <h3 class="divHeader">  How does this work?</h3>
+        <p class="divText">
+            The key to a lot of this is leveraging using tables with a <span class="divTwoSpan1">role="presentation"</span> 
+            attribute to make decorated sections without css. 
+            If you view source on the page, you'll see that there are a LOT of tables. 
+            The table tag typically is used to display tabular data and should NOT be used as a layout method. However, since I am not allowed to use CSS, 
+            I am pretty much exclusively relying on tables for this purpose. The presentation role tells the browser to not expose the table and its
+             tabluar children in the accessibility tree. This will make it easier to navigate for assistive technology.
+            <br><br>
+            I'm also leveraging some deprecated HTML elements from HTML 3.2 that you should never use. In order to be "compliant", 
+            I've added the HTML 3.2 doctype at the top of the page:
+            <br> <span class="divTwoSpan1">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;</span>
+            <br>
+            This helps give a hint to the browser that we are going to use some older stuff.
+            <br><br>
+            HOWEVER, I'm also using some newer things such as <span class="divTwoSpan1">details/summary</span>, <span class="divTwoSpan1">section</span>,
+             <span class="divTwoSpan1">main</span>, <span class="divTwoSpan1">header</span>, and <span class="divTwoSpan1">footer</span>. 
+            So I'm just making a mess of my doctype and what I should be actually using!
+        </p> 
+    </div>
+
+    <hr color="orange"> 
+
+    <div class="Div" style="border-color: orange;">
+        <h3 class="divHeader">But Why?</h3>
+        <img src="./Assets/Gifs/ryan-reynolds-but-why.gif" alt="gif of ryan-reynolds-but-why" style="margin-left: 10px;">
+        <p class="divText">
+            I make terrible things. This was an exciting <span class="lastDivSpan">nerd snipe</span> on a sunday, And I took up the challenge!
+        </p>
+    </div>
+
+    <hr color="orange">
+
+    <div class="headDiv">   
+        <p class="footerText"> 
+            Created by <span class="footerSpan1">Alex Riviere</span>. <br>
+        </p>
+        <p class="footerText1">
+            (One <span class="footerSpan2">marquee</span> for good measure.)
+        </p>
+    </div>
+
+    
+</body>
+</html>

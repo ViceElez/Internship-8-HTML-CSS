@@ -1,0 +1,72 @@
+.Div{
+    background-color: rgb(252, 240, 226);
+    border-style: solid;
+    border-width: 10px;
+}
+.headDiv{
+    width: 500px;
+    margin-left: 690px;
+}
+.firstSpan{
+    text-decoration: underline;
+    text-decoration-color: rgb(160, 0, 220); 
+    color: rgb(0, 0, 128);
+}
+.headText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+.divText{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.listText{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    color: aqua;
+    font-size: 16px;
+}
+.divHeader{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.footerText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.footerText1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.lastDivSpan{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    color: rgb(0, 0, 128);
+
+}
+.footerSpan1{
+    text-decoration: underline;
+    text-decoration-color: rgb(147, 112, 219);
+    color: rgb(147, 112, 219);
+}
+.footerSpan2{
+    font-family: monospace;
+    font-size: smaller;
+}
+.divTwoSpan1{
+    font-family: monospace; 
+    font-size: 20px;
+}
