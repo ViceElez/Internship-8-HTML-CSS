@@ -54,7 +54,7 @@ body{
 }
 .lastDivSpan{
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color:rgb(160, 0, 220); 
     color: rgb(0, 0, 128);
 
 }
@@ -71,3 +71,10 @@ body{
     font-family: monospace; 
     font-size: 20px;
 }
+.triangle { 
+    width: 0px;
+    height: 0px;
+    border-top:9px solid white; 
+    border-left: 7px solid transparent; 
+    border-right: 7px solid transparent; 
+  }
